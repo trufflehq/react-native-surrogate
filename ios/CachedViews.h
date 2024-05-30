@@ -1,7 +1,7 @@
-// CachedViews.h
+// Surrogate.h
 
 #import <React/RCTBridgeModule.h>
 
-@interface CachedViews : NSObject <RCTBridgeModule>
+@interface Surrogate : NSObject <RCTBridgeModule>
 
 @end

@@ -1,9 +1,9 @@
-// CachedViews.m
+// Surrogate.m
 
-#import "CachedViews.h"
+#import "Surrogate.h"
 
 
-@implementation CachedViews
+@implementation Surrogate
 
 RCT_EXPORT_MODULE()
 

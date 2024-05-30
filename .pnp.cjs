@@ -11,14 +11,14 @@ const RAW_RUNTIME_STATE =
   ],\
   "dependencyTreeRoots": [\
     {\
-      "name": "react-native-cached-views",\
+      "name": "react-native-surrogate",\
       "reference": "workspace:."\
     }\
   ],\
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
-    ["react-native-cached-views", ["workspace:."]]\
+    ["react-native-surrogate", ["workspace:."]]\
   ],\
   "fallbackPool": [\
   ],\
@@ -7465,11 +7465,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["react-native-cached-views", [\
+    ["react-native-surrogate", [\
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["react-native-cached-views", "workspace:."],\
+          ["react-native-surrogate", "workspace:."],\
           ["react", "npm:18.2.0"],\
           ["react-native", "virtual:ee833197a28103ca14b30b8cd0e264de3e899597095f5cdf23f06388412a36b78d20d88f4f70e8a664bc0989059258be5ee2ae09d1c7b7ad0cd06b7f84d76e59#npm:0.73.8"],\
           ["react-native-windows", "virtual:ee833197a28103ca14b30b8cd0e264de3e899597095f5cdf23f06388412a36b78d20d88f4f70e8a664bc0989059258be5ee2ae09d1c7b7ad0cd06b7f84d76e59#npm:0.74.7"]\

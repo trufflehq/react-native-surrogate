@@ -3,7 +3,7 @@
 
 using namespace winrt::Microsoft::ReactNative;
 
-namespace winrt::ReactNativeCachedViews::implementation
+namespace winrt::ReactNativeSurrogate::implementation
 {
     struct ReactPackageProvider : ReactPackageProviderT<ReactPackageProvider>
     {
@@ -11,11 +11,11 @@ namespace winrt::ReactNativeCachedViews::implementation
 
         void CreatePackage(IReactPackageBuilder const &packageBuilder) noexcept;
     };
-} // namespace winrt::ReactNativeCachedViews::implementation
+} // namespace winrt::ReactNativeSurrogate::implementation
 
-namespace winrt::ReactNativeCachedViews::factory_implementation
+namespace winrt::ReactNativeSurrogate::factory_implementation
 {
 
 struct ReactPackageProvider : ReactPackageProviderT<ReactPackageProvider, implementation::ReactPackageProvider> {};
 
-} // namespace winrt::ReactNativeCachedViews::factory_implementation
+} // namespace winrt::ReactNativeSurrogate::factory_implementation

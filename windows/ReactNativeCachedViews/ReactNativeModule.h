@@ -5,10 +5,10 @@
 
 using namespace winrt::Microsoft::ReactNative;
 
-namespace winrt::ReactNativeCachedViews
+namespace winrt::ReactNativeSurrogate
 {
 
-REACT_MODULE(ReactNativeModule, L"ReactNativeCachedViews")
+REACT_MODULE(ReactNativeModule, L"ReactNativeSurrogate")
 struct ReactNativeModule
 {
     // See https://microsoft.github.io/react-native-windows/docs/native-modules for details on writing native modules
@@ -30,4 +30,4 @@ struct ReactNativeModule
         ReactContext m_reactContext{nullptr};
 };
 
-} // namespace winrt::ReactNativeCachedViews
+} // namespace winrt::ReactNativeSurrogate

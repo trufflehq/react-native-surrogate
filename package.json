@@ -1,5 +1,5 @@
 {
-  "name": "react-native-cached-views",
+  "name": "react-native-surrogate",
   "title": "React Native Cached Views",
   "version": "1.0.0",
   "description": "TODO",
@@ -9,7 +9,7 @@
     "android",
     "index.js",
     "ios",
-    "react-native-cached-views.podspec"
+    "react-native-surrogate.podspec"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,8 +17,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-cached-views.git",
-    "baseUrl": "https://github.com/github_account/react-native-cached-views"
+    "url": "git+https://github.com/github_account/react-native-surrogate.git",
+    "baseUrl": "https://github.com/github_account/react-native-surrogate"
   },
   "keywords": [
     "react-native"
