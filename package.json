@@ -12,7 +12,8 @@
     "react-native-cached-views.podspec"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "windows": "react-native run-windows"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
   "devDependencies": {
     "react": "18.2.0",
     "react-native": "^0.73.0",
-    "react-native-windows": "0.74.7"
+    "react-native-windows": "0.74.7",
+    "metro-config": "^0.80.9"
   }
 }
