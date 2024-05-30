@@ -34,4 +34,11 @@ public class RendererViewManager extends ViewGroupManager<RendererView> {
     public void setId(RendererView rendererView, String id) {
         rendererView.setId(id);
     }
+    
+    // called once all props are set
+    @Override
+    public void onAfterUpdateTransaction(RendererView rendererView) {
+        rendererView.render();
+    }
+    
 }

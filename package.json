@@ -1,9 +1,9 @@
 {
   "name": "react-native-surrogate",
-  "title": "React Native Cached Views",
+  "title": "React Native Surrogate",
   "version": "1.0.0",
   "description": "TODO",
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
     "README.md",
     "android",
@@ -12,6 +12,7 @@
     "react-native-surrogate.podspec"
   ],
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "windows": "react-native run-windows"
   },
@@ -35,9 +36,16 @@
     "react-native": ">=0.60.0-rc.0 <1.0.x"
   },
   "devDependencies": {
+    "@tsconfig/react-native": "^3.0.5",
+    "@types/react": "^18.3.3",
+    "jest": "^29.7.0",
+    "metro-config": "^0.80.9",
     "react": "18.2.0",
     "react-native": "^0.73.0",
     "react-native-windows": "0.74.7",
-    "metro-config": "^0.80.9"
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@legendapp/state": "^2.1.14"
   }
 }

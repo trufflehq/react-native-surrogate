@@ -8,7 +8,7 @@ import android.util.Log;
 
 public class SurrogateView extends ReactViewGroup {
     private SurrogateRegistry mSurrogateRegistry;
-    String mId = null;
+    private String mId = null;
 
     public SurrogateView(ThemedReactContext ctx, SurrogateRegistry surrogateRegistry) {
         super(ctx);
